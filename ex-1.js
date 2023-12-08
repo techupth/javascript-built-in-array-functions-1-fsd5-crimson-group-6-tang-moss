@@ -1,9 +1,14 @@
+//นับตัวอักษรใน array
+//ดึงออกมานับทีละตัว
+
+//ใช้ .map ดึงออกมาแล้วนับ
+
 let words = ["hello", "world"];
 
 function getWordLengths(words) {
-  // Start coding here
+  // Start coding here 
+  return words.length
 }
+let conutWords = words.map(getWordLengths);
 
-const result = getWordLengths(words);
-
-console.log(result); // Output: [5, 5]
+console.log(conutWords); // Output: [5, 5]
